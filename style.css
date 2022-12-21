@@ -3,6 +3,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+::placeholder {
+    color: white;
+    opacity: 75%;
+}
+
 /* navbar */
 .navbar .container-navbar{
     display: flex;
@@ -25,6 +30,7 @@ html {
 .navbar .container-navbar .container-search .search-bar{
     position: relative;
 }
+
 .navbar .container-navbar .container-search .search-icon{
     position: absolute;
     top: 3px;
@@ -40,11 +46,6 @@ html {
     color: white;
     height: 25px;
     width: 200px;
-}
-
-::placeholder {
-    color: white;
-    opacity: 75%;
 }
 
 .navbar .container-navbar .navbar-items { 
@@ -67,7 +68,6 @@ html {
     padding-left: 10px;
     padding-top: 5px;
 }
-
 
 .navbar .container-navbar .cart-icon img{
     width: 20px;
