@@ -1,0 +1,77 @@
+/* general */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.navbar .container-navbar{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
+    width: 100%;
+
+}
+
+.navbar .container-navbar .container-search {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.navbar .container-navbar .container-search .search-bar{
+    position: relative;
+}
+.navbar .container-navbar .container-search .search-icon{
+    position: absolute;
+    top: 3px;
+    left: 177px;
+    width: 15px;
+    padding: 1%;
+}
+
+.navbar .container-navbar .container-search .search-bar .form-search-bar{
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 8px;
+    color: white;
+    height: 25px;
+    width: 200px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 75%;
+}
+
+.navbar .container-navbar .navbar-items { 
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .container-navbar .navbar-items .nav-item .cart-icon{
+    width: 15px;
+}
+
+.navbar .container-navbar .navbar-items .nav-item a{
+    text-decoration: none;
+    color: grey;
+}
+
+.navbar .container-navbar .brand .brand-logo{
+    width: 70px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+.navbar .container-navbar .cart-icon img{
+    width: 20px;
+    padding-right: 30px;
+}
+
+/*  */
